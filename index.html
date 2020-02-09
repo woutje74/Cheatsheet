@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is my cheatsheet</title>
+        <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <br>
+                
+                <h1 id="top">Mijn persoonlijke HTML & CSS cheatsheet</h1>
+                <section class="topic">
+                    <h2>Topics</h2>
+                    <nav>
+                        <li><a href="#html_tags">HTML structure & tags</a></li>
+                        <li><a href="#html_tables">HTML Tables</a></li>
+                        <li><a href="#html_forms">HTML forms</a></li>
+                        <li><a href="#css_style">CSS Styling</a></li>
+                    </nav>
+                </section>
+            </div>
+        </header>
+        <main>
+            <section class="topic">
+                <h2 id="html_tags">HTML structure & tags</h2>
+                <!-- om tags als tekst weer te geven gebruik &lt voor < en &gt voor > -->
+                <p>HTML documenten kennen een vast structuur en opmaak met een aantal standaard elementen/tags die essentieel zijn voor een goede opbouw van de website.<br>
+                De belangrijkste elementen zijn:</p>
+                <table class="htmltags">
+                    <thead class="tbhead">
+                        <td>HTML element</td>
+                        <td>Name</th>
+                        <td>HTML description</th>
+                    </thead>
+                    <tbody class="tbbody">
+                        <tr>
+                            <td>&l!DOCTYPE html&gt</td>
+                            <td>Document type</td>
+                            <td>Vertelt de browser wat voor html document het betreft.</td>
+                        </tr>
+                        <tr>
+                            <td>&lhtml&gt</td>
+                            <td>HTML</td>
+                            <td>Alle data tussen de opening en closing tag is de website data.</td>
+                        </tr>
+                        <tr>
+                            <td>&lthead&gt</td>
+                            <td>Head</td>
+                            <td>Bevat de metadata van het html document</td>
+                        </tr>
+                        <tr>
+                            <td>&lttitle&gt</td>
+                            <td>Titel</td>
+                            <td>Dit is de naam van je webpagina die getoond wordt in het tabblad</td>
+                        </tr>
+                        <tr>
+                            <td>&ltlink&gt</td>
+                            <td>Link</td>
+                            <td>Wordt gebruikt om een koppeling te maken met een externe bron, zoals een CSS file of webfonts</td>
+                        </tr>
+                        <tr>
+                            <td>&ltbody&gt</td>
+                            <td>Body</td>
+                            <td>In de body komt alle zichtbare inhoud van de webpagina</td>
+                        </tr>
+                        <tr>
+                            <td>&ltheader&gt</td>
+                            <td>Header</td>
+                            <td>Is de kop van je pagina. Bevat de hoofdtitel van je pagina en meestal navigatielinks</td>
+                        </tr>
+                        <tr>
+                            <td>&ltnav&gt</td>
+                            <td>Navigation</td>
+                            <td>Bevat de navigatie links van je pagina</td>
+                        </tr>
+                        <tr>
+                            <td>&ltmain&gt</td>
+                            <td>Main</td>
+                            <td>Bevat de belangrijkste content van je pagina</td>
+                        </tr>
+                        <tr>
+                            <td>&ltfooter&gt</td>
+                            <td>Footer</td>
+                            <td>Is het einde van je pagina. Hierin vind je bijvoorbeeld contactinformatie en copyright gegevens</td>
+                        </tr>
+                        <tr>
+                            <td>&lth1&gt</td>
+                            <td>Heading</td>
+                            <td>Heading benadrukt bepaalde tekst. H1 is de hoofdtitel. h6 is het laagste niveau</td>
+                        </tr>
+                        <tr>
+                            <td>&lta&gt</td>
+                            <td>Anchor</td>
+                            <td>Deze wordt gebruikt om een link te maken naar een ander deel van de pagina of een externe website</td>
+                        </tr>
+                        <tr>
+                            <td>&ltp&gt</td>
+                            <td>Paragraaf</td>
+                            <td>Wordt gebruikt voor een tekstparagraaf</td>
+                        </tr>
+                        <tr>
+                            <td>&ltarticle&gt</td>
+                            <td>Artikel</td>
+                            <td>Een op zichzelf staand stuk tekst</td>
+                        </tr>
+                        <tr>
+                            <td>&ltaside&gt</td>
+                            <td>Aside</td>
+                            <td>Gebruikt in combinatie met &ltarticle&gt om te verwijzen naar gerelateerde tekst of reclame</td>
+                        </tr>
+                        <tr>
+                            <td>&ltul&gt</td>
+                            <td>Unordered list</td>
+                            <td>Een opsomming met bullet points</td>
+                        </tr>
+                        <tr>
+                            <td>&ltol&gt</td>
+                            <td>Ordered list</td>
+                            <td>Een opsomming met nummer</td>
+                        </tr>
+                        <tr>
+                            <td>&ltli&gt</td>
+                            <td>List item</td>
+                            <td>Bevat het list item</td>
+                        </tr>
+                        <tr>
+                            <td>&ltimg&gt</td>
+                            <td>Image</td>
+                            <td>Tag voor het weergeven van een image. Syntax: &ltimg src="...."/&gt selfclosing tag</td>
+                        </tr>
+                        <tr>
+                            <td>&ltvideo&gt</td>
+                            <td>Video</td>
+                            <td>Wordt gebruikt om video content toe te voegen aan de website.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltembed&gt</td>
+                            <td>Embedding</td>
+                            <td>Wordt gebruikt om verschillende soorten media content toe te voegen aan de website.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltaudio&gt</td>
+                            <td>Audio</td>
+                            <td>Wordt gebruikt om audio content toe te voegen aan de website.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltdiv&gt</td>
+                            <td>Division</td>
+                            <td>Div wordt gebruikt om in de code een bepaalt deel van de content af te kaderen</td>
+                        </tr>
+                        <tr>
+                            <td>&ltbr&gt</td>
+                            <td>LineBreak</td>
+                            <td>voegt een linebreak toe in een tektsparagraaf of tussen paragrafen</td>
+                        </tr>
+                        <tr>
+                            <td>&lthr&gt</td>
+                            <td>Break</td>
+                            <td>Voegt een witregel toe in de pagina tussen paragrafen of content</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Een goede bron van informatie over HTML tags is <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">MDN</a> </h3>
+                <a href="#top">Terug naar boven</a>
+                <br>
+                <br>
+            </section>
+            <section class="topic">
+                <h2 id="html_tables">HTML Tables</h2>
+                <p>Met behulp van de volgende tags kun je tabellen maken in HTML. De styling van de tabellen kun je vervolgens met <a href="#css_style">CSS</a> aanpassen.</p>
+                <table class="htmltables">
+                    <thead class="tbhead">
+                        <td>HTML element</td>
+                        <td>Name</td>
+                        <td>HTML description</td>
+                    </thead>
+                    <tbody class="tbbody">
+                        <tr>
+                            <td>&ltthead&gt</td>
+                            <td>Table header</td>
+                            <td>Bevat de headerrow van een tabel</td>
+                        </tr>
+                        <tr>
+                            <td>&lttbody&gt</td>
+                            <td>Table body</td>
+                            <td>Bevat de rijen met datacellen</td>
+                        </tr>
+                        <tr>
+                            <td>&lttfoot&gt</td>
+                            <td>Table footer</td>
+                            <td>Bevat de opsomming van de bovenliggende datacellen</td>
+                        </tr>
+                        <tr>
+                            <td>&ltth&gt</td>
+                            <td>Table headerrow</td>
+                            <td>Creëert een headerrow</td>
+                        </tr>
+                        <tr>
+                            <td>&lttr&gt</td>
+                            <td>Table row</td>
+                            <td>Creëert een row</td>
+                        </tr>
+                        <tr>
+                            <td>&lttd&gt</td>
+                            <td>Table data</td>
+                            <td>Creëert een datacel / column</td>
+                        </tr>
+                        <tr>
+                            <td>&lttd colspan=" "&gt</td>
+                            <td>Table data</td>
+                            <td>Voegt cellen over kolommen samen</td>
+                        </tr>
+                        <tr>
+                            <td>&lttd rowspan=" "&gt</td>
+                            <td>Table data</td>
+                            <td>Voegt cellen over rijen samen</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <a href="#top">Terug naar boven</a>
+                <br>
+            </section>
+            <section class="topic">
+                <h2 id="html_forms">HTML Forms</h2>
+                <br>
+                <p>Met behulp van de volgende HTML elementen kun je formulieren bouwen in HTML. Je kunt verschillende input mogelijkheden creëren en door middel van attributes een bepaalde controle toevoegen op de input.</p>
+                <table class="htmlforms">
+                    <thead class="tbhead">
+                        <td>HTML element</td>
+                        <td>Name</td>
+                        <td>HTML description</td>
+                    </thead>
+                    <tbody class="tbbody">
+                        <tr>
+                            <td>&ltform&gt</td>
+                            <td>Formulier</td>
+                            <td>Markeert de tussenliggende content als formulier. Syntax: &ltform action="#.html" method="GET"&gt Het attribute <em>action</em> betreft de bestemming en <em>method</em> de actie die wordt uitgevoerd zodra op de submit knop wordt geklikt.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltlabel&gt</td>
+                            <td>Label</td>
+                            <td>Hiermee creëer je een label voor een input veld. Syntax: &ltlabel for="..."&gtLabelnaam&lt/label&gt.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="9">&ltinput&gt</td>
+                            <td rowspan="9">Input</td>
+                            <td class="rowspanbottom">Betreft het input veld en kent de volgende methodes:</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">text =&gt genereert een tekst invoerveld.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">number =&gt genereert een nummer invoerveld.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">checkbox =&gt genereert een checkbox. Koppel aan iedere checkbox hetzelfde <em>name</em> attribute.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">radio =&gt genereert een radiobutton.Koppel aan iedere checkbox hetzelfde <em>name</em> attribute.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">list =&gt genereert een lijst met opties gekoppeld een &ltdatalist&gt. Syntax: &ltinput list="id-datalist" name="..."&gt. Door het attribute <em>type</em> toe te voegen of weg te laten, kan een gebruiker zelf opties toevoegen of alleen de lijst gebruiken.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">range =&gt genereert een slider.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspan">submit =&gt genereert een <em>submit</em> knop. Tussen de opening en closing tag kun je een naam aan de knop toekennen. Default is submit.</td>
+                        </tr>
+                        <tr>
+                            <td class="rowspantop">password =&gt genereert een wachtwoord veld waarvan de input wordt gemaskeerd.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltselect&gt</td>
+                            <td>Selectie</td>
+                            <td>Hiermee creëer je een lijst met input waaruit geselecteerd kan worden.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltdatalist&gt</td>
+                            <td>Datalijst</td>
+                            <td>Hiermee creëer je een lijst met input waaruit geselecteerd kan worden gekoppeld aan een &ltinput&gt middels het <em>list</em> attribute en <em>id</em>.</td>
+                        </tr>
+                        <tr>
+                            <td>&ltoption&gt</td>
+                            <td>Optie</td>
+                            <td>Hiermee creëer je de opties voor een dropdownlijst. Dit element is een child van &ltselect&gt of &ltdatalist&gt. Syntax: &ltoption value="waarde"&gt&lt/option&gt</td>
+                        </tr>
+                        <tr>
+                            <td>&lttextarea&gt</td>
+                            <td>Tekstveld</td>
+                            <td>Dit creëert een tekstveld. Middels attributes <em>rows</em> en <em>cols</em> kun je de grootte van het veld definiëren</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <p>Verder moeten alle invoer elementen van het formulier voorzien worden van een <em>id</em> en een <em>name</em>. De <em>id</em> koppelt de input aan het label en de <em>name</em> aan de value die wordt ingegeven. Name=value wordt als paar verzonden.</p>
+                <a href="#top">Terug naar boven</a>
+                <br>
+            </section>
+            <section class="topic">
+                <h2 id="css_style">CSS Styling</h2>
+                <br>
+                <p>Het stylen van een webpagina kan door de styling op te nemen in de html code van de pagina. Met behulp van CSS (Cascading Style Sheet) zijn er meer mogelijkheden om de webpagina te stylen. De link tussen het html- en css file wordt gemaakt in de &lthead&gt van de html file.
+                <br>Deze styling kan worden toegepast op verschillende niveau's (selectors) met de volgende prioriteit:</p>
+                <ol>
+                    <li>#id: styleert 1 element en overschrijft de style van class en element;</li>
+                    <li>chained.selector: dit zijn twee gekoppelde selectors, bijv. html element en class (h1.class)</li>
+                    <li>.class: selector class wordt gebruikt om meerdere html elementen van dezelfde class;</li>
+                    <li>element: selector element wordt gebruikt om gelijke html elementen op dezelfde manier te stylen, bijv. &lth1&gt</li>
+                </ol>
+                <p><b>Nested</b> elements: hierbij wordt styling toegepast op child elements, bijv. de list items van een &ltol&gt of &ltul&gt</p>
+                <p><b>Inheritance</b> is het toepassen van styling van het hoogstgelegen html element op alle overige child elements. Bijv. styling toegepast op &lthtml&gt geldt voor alle tussenliggende elements, tenzij daar specifiekere styling voor aanwezig is de CSS.</p>
+                <p>Een specifiekere selector heeft altijd voorrang op een simpelere selector.</p>
+                <p>Door middel van een ',' kunnen meerdere selectors aan eenzelfde styling declaratie gekoppeld worden, bijv. h5, .class</p>
+                <h3>Op internet is heel veel informatie te vinden over CSS. Klik <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">hier</a> voor de website van MDN.</h3>
+                <br>
+                <a href="#top">Terug naar boven</a>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2020 Wouter H. van der Zwet <a href="https://www.linkendin/com/in/woutervanderzwet">LinkedIn</a></p>
+            <p>Background image by: <a style="background-color:black; color:white; text-decoration:none; padding:4px 6px; font-family:-apple-system, BlinkMacSystemFont, San Francisco, Helvetica Neue, Helvetica, Ubuntu, Roboto, Noto, Segoe UI, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@sapegin?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Artem Sapegin"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Artem Sapegin</span></a> on <a href="https://www.unsplash.com" target="_blank">Unsplash</a></p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+body {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: Navy;
+    background-color: Azure;
+    margin: 20px;
+    background-image: url(https://images.unsplash.com/photo-1482062364825-616fd23b8fc1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+    background-size: cover;
+}
+
+h1 {
+    font-size: 4em;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    color: Navy;
+    text-align: center;
+}
+
+.topic {
+    border: navy solid;
+    background-color: rgb(237, 253, 253);
+    padding: 20px;
+    margin: 5px;
+}
+
+h2 {
+    padding: 20px;
+    margin: 10px;
+}
+
+#html_tags, #html_forms, #html_tables, #css_style {
+    color: Navy;
+    background-color: turquoise;
+    padding: 20px;
+    margin: 10px;
+}
+
+p, nav, a, h3 {
+    margin: 10px;
+}
+
+table {
+    text-align: left;
+    margin-left: 12px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: auto;
+    padding: 20px;
+}
+
+td {
+    border: 2px solid navy;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rowspanbottom {
+    border-bottom: Azure;
+}
+.rowspan {
+    border-top: Azure;
+    border-bottom: Azure;
+}
+.rowspantop {
+    border-top: Azure;
+}
+
+thead {
+    background-color: olive;
+}
